@@ -1,4 +1,4 @@
-const PLUGIN_Name="ShootPlanePlugin";
+const PLUGIN_Name="luguan";
 ll .registerPluginregisterPlugin(PLUGIN_Name, "打飞机插件", [0,0,2,Version.Dev])
 const CONFIG = data.openConfig(".\\plugins\\lugua\\config.json", "json", JSON.stringify({
     "pl_luguan_max": 3,//单日打飞机次数限制
