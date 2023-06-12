@@ -1,5 +1,5 @@
 const PLUGIN_Name="luguan";
-ll .registerPluginregisterPlugin(PLUGIN_Name, "打飞机插件", [0,0,2,Version.Dev])
+
 const CONFIG = data.openConfig(".\\plugins\\lugua\\config.json", "json", JSON.stringify({
     "pl_luguan_max": 3,//单日打飞机次数限制
     "randomNumber": 10,//单词打飞机累计次数数量发放加血效果
@@ -109,3 +109,5 @@ function calculateTimeDifferenceInMinutes(startTime) {
 
     return differenceInMinutes;
 }
+
+ll .registerPlugin(PLUGIN_Name, "打飞机插件", [0,0,2,Version.Dev])
